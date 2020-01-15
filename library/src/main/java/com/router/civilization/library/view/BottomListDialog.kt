@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.view
+package com.router.civilization.library.view
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatDialogFragment
 import android.view.*
 import android.widget.*
 import com.router.civilization.library.R
-import com.wmsj.baselibs.bean.AreaBean
-import com.wmsj.baselibs.bean.BaseInfoBean
-import com.wmsj.baselibs.bean.OrgListBean
+import com.router.civilization.library.bean.AreaBean
+import com.router.civilization.library.bean.BaseInfoBean
+import com.router.civilization.library.bean.OrgListBean
 
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable

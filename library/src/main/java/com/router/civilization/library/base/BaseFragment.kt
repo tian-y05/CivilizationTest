@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.base
+package com.router.civilization.library.base
 
 import android.os.Bundle
 import android.support.annotation.LayoutRes
@@ -11,9 +11,9 @@ import android.widget.Toast
 import com.router.civilization.library.R
 import com.router.civilization.library.eventbus.EventBusUtils
 import com.router.civilization.library.utils.StatusBarUtil
-import com.wmsj.baselibs.eventBus.EventBusMessage
+import com.router.civilization.library.eventbus.EventBusMessage
 
-import com.wmsj.baselibs.view.CommonLoadingDialog
+import com.router.civilization.library.view.CommonLoadingDialog
 import io.reactivex.annotations.NonNull
 import kotlinx.android.synthetic.main.action_bar_white.*
 import org.greenrobot.eventbus.Subscribe

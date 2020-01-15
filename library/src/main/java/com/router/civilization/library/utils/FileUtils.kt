@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.utils
+package com.router.civilization.library.utils
 
 import android.annotation.TargetApi
 import android.graphics.Bitmap

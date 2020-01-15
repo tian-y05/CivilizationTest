@@ -143,7 +143,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <com.wmsj.baselibs.view.DrawableCenterTextView
+        <com.router.civilization.library.view.DrawableCenterTextView
             android:id="@+id/tv_publish"
             android:layout_width="@dimen/dp_0"
             android:layout_height="@dimen/dp_40"
@@ -156,7 +156,7 @@
             android:textSize="@dimen/sp_14"
             android:visibility="gone" />
 
-        <com.wmsj.baselibs.view.DrawableCenterTextView
+        <com.router.civilization.library.view.DrawableCenterTextView
             android:id="@+id/tv_back_reason"
             android:layout_width="@dimen/dp_0"
             android:layout_height="@dimen/dp_40"
@@ -175,7 +175,7 @@
             android:layout_marginTop="@dimen/dp_5"
             android:background="@color/under_line" />
 
-        <com.wmsj.baselibs.view.DrawableCenterTextView
+        <com.router.civilization.library.view.DrawableCenterTextView
             android:id="@+id/tv_edit"
             android:layout_width="@dimen/dp_0"
             android:layout_height="@dimen/dp_40"
@@ -194,7 +194,7 @@
             android:layout_marginTop="@dimen/dp_5"
             android:background="@color/under_line" />
 
-        <com.wmsj.baselibs.view.DrawableCenterTextView
+        <com.router.civilization.library.view.DrawableCenterTextView
             android:id="@+id/tv_delete"
             android:layout_width="@dimen/dp_0"
             android:layout_height="@dimen/dp_40"
@@ -443,7 +443,7 @@
             android:layout_marginTop="@dimen/dp_12"
             android:background="@color/under_line" />
 
-        <com.wmsj.baselibs.view.DrawableCenterTextView
+        <com.router.civilization.library.view.DrawableCenterTextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_40"
             android:drawableLeft="@mipmap/back_draft"

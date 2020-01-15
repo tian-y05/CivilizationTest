@@ -1,6 +1,6 @@
 package com.router.civilization.library.eventbus;
 
-import com.wmsj.baselibs.eventBus.EventBusMessage;
+import com.router.civilization.library.eventbus.EventBusMessage;
 
 import org.greenrobot.eventbus.EventBus;
 

@@ -23,7 +23,7 @@
                 android:layout_marginTop="@dimen/dp_15"
                 android:gravity="center">
 
-                <com.wmsj.baselibs.view.TextCircleView
+                <com.router.civilization.library.view.TextCircleView
                     android:id="@+id/tcv_first"
                     android:layout_width="@dimen/dp_20"
                     android:layout_height="@dimen/dp_20"
@@ -48,7 +48,7 @@
                     android:layout_marginRight="@dimen/dp_25"
                     android:src="@mipmap/info_to_right" />
 
-                <com.wmsj.baselibs.view.TextCircleView
+                <com.router.civilization.library.view.TextCircleView
                     android:id="@+id/tcv_second"
                     android:layout_width="@dimen/dp_20"
                     android:layout_height="@dimen/dp_20"

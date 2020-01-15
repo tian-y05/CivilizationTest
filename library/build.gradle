@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -17,7 +17,34 @@ android {
     }
 
     buildTypes {
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "BASE_URL", "\"http://api.jsvolunteer.org\""
+            buildConfigField "String", "UPLOADURL", "\"http://api.jsvolunteer.org\""
+            buildConfigField "String", "API_TOKEN", "\"1\""
+            buildConfigField "String", "BANNER_KEY", "\"1\""
+            buildConfigField "String", "STATION_KEY", "\"26\""
+            buildConfigField "String", "BUGLYID", "\"0204fa5829\""
+            buildConfigField "String", "WEBVIEW_URL", "\"http://gaochun.jsvolunteer.org/#/\""
+//            buildConfigField "String", "BASE_URL", "\"http://testapi.jsvolunteer.org\""
+//            buildConfigField "String", "UPLOADURL", "\"http://api.jsvolunteer.org\""
+//            buildConfigField "String", "API_TOKEN", "\"1\""
+//            buildConfigField "String", "BANNER_KEY", "\"2\""
+//            buildConfigField "String", "STATION_KEY", "\"26\""
+//            buildConfigField "String", "BUGLYID", "\"0204fa5829\""
+//            buildConfigField "String", "WEBVIEW_URL", "\"http://gaochuntest.jsvolunteer.org/#/\""
+            manifestPlaceholders = [CHANNELNAME: "base", MAPAPIKEY: "33478fa613632bfb6d0531cee34b43bd"]
+        }
+
         release {
+            buildConfigField "String", "BASE_URL", "\"http://api.jsvolunteer.org\""
+            buildConfigField "String", "UPLOADURL", "\"http://api.jsvolunteer.org\""
+            buildConfigField "String", "API_TOKEN", "\"1\""
+            buildConfigField "String", "BANNER_KEY", "\"1\""
+            buildConfigField "String", "STATION_KEY", "\"26\""
+            buildConfigField "String", "BUGLYID", "\"0204fa5829\""
+            buildConfigField "String", "WEBVIEW_URL", "\"http://gaochun.jsvolunteer.org/#/\""
+            manifestPlaceholders = [CHANNELNAME: "base", MAPAPIKEY: "33478fa613632bfb6d0531cee34b43bd"]
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

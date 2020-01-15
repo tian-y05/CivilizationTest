@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.utils
+package com.router.civilization.library.utils
 
 import com.router.civilization.library.utils.L
 import com.router.civilization.library.utils.StringUtils

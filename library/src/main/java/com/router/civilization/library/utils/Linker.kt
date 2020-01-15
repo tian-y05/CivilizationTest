@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.utils
+package com.router.civilization.library.utils
 
 import android.graphics.Color
 import android.text.SpannableString

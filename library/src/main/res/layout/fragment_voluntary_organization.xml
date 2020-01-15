@@ -41,7 +41,7 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <com.wmsj.baselibs.view.CircleImageView
+                <com.router.civilization.library.view.CircleImageView
                     android:id="@+id/iv_logo"
                     android:layout_width="@dimen/dp_50"
                     android:layout_height="@dimen/dp_50"

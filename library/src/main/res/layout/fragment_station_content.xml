@@ -7,7 +7,7 @@
     android:background="@drawable/shape_corner"
     android:orientation="vertical">
 
-    <com.wmsj.baselibs.view.TopCornerImageView
+    <com.router.civilization.library.view.TopCornerImageView
         android:id="@+id/iv_image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_195"

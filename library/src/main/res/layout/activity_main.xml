@@ -15,7 +15,7 @@
             android:id="@+id/fl_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/dp_50" />
+            android:layout_marginBottom="@dimen/dp_50"></FrameLayout>
 
         <com.flyco.tablayout.CommonTabLayout
             android:id="@+id/tab_layout"

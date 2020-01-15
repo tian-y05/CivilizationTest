@@ -64,7 +64,7 @@
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_12" />
 
-                <com.wmsj.baselibs.view.RatingBar
+                <com.router.civilization.library.view.RatingBar
                     android:id="@+id/rating_bar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

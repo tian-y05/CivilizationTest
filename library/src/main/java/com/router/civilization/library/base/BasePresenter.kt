@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.base
+package com.router.civilization.library.base
 
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable

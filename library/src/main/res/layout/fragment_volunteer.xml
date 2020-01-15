@@ -27,7 +27,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.wmsj.baselibs.view.CircleImageView
+            <com.router.civilization.library.view.CircleImageView
                 android:id="@+id/iv_logo"
                 android:layout_width="@dimen/dp_50"
                 android:layout_height="@dimen/dp_50"
@@ -80,7 +80,7 @@
                     android:textSize="@dimen/sp_14"
                     android:textStyle="bold" />
 
-                <com.wmsj.baselibs.view.RatingBar
+                <com.router.civilization.library.view.RatingBar
                     android:id="@+id/rating_bar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

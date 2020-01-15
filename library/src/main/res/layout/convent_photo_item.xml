@@ -6,7 +6,7 @@
     android:layout_marginTop="@dimen/dp_15"
     android:orientation="horizontal">
 
-    <com.wmsj.baselibs.view.CircleImageView
+    <com.router.civilization.library.view.CircleImageView
         android:id="@+id/iv_logo"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40" />
@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_14">
 
-            <com.wmsj.baselibs.view.MyGridView
+            <com.router.civilization.library.view.MyGridView
                 android:id="@+id/gv_photos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:numColumns="3"
-                android:visibility="gone"></com.wmsj.baselibs.view.MyGridView>
+                android:visibility="gone"></com.router.civilization.library.view.MyGridView>
 
             <cn.jzvd.JzvdStd
                 android:id="@+id/jz_video"

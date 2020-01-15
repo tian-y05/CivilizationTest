@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.view
+package com.router.civilization.library.view
 
 import android.annotation.SuppressLint
 import android.content.Context

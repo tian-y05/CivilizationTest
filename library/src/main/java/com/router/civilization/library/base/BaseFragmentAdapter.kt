@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.base
+package com.router.civilization.library.base
 
 import android.annotation.SuppressLint
 import android.support.v4.app.Fragment

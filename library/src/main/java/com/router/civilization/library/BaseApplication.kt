@@ -1,7 +1,7 @@
 package com.router.civilization.library
 
 import android.content.Context
-import com.wmsj.baselibs.utils.DisplayManager
+import com.router.civilization.library.utils.DisplayManager
 
 /**
  * Created by tian

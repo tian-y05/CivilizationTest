@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.wmsj.baselibs.view.NodeProgressView
+            <com.router.civilization.library.view.NodeProgressView
                 android:id="@+id/node_view"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_90"

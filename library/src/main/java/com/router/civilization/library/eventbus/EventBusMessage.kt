@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.eventBus
+package com.router.civilization.library.eventbus
 
 /**
  * Created by tian

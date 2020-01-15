@@ -36,10 +36,10 @@
         </com.scwang.smartrefresh.layout.SmartRefreshLayout>
     </LinearLayout>
 
-    <com.wmsj.baselibs.filterview.FilterView
+    <com.router.civilization.library.filterview.FilterView
         android:id="@+id/filterView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone"></com.wmsj.baselibs.filterview.FilterView>
+        android:visibility="gone"></com.router.civilization.library.filterview.FilterView>
 
 </FrameLayout>

@@ -1,4 +1,4 @@
-package com.wmsj.baselibs.bean
+package com.router.civilization.library.bean
 
 data class HangupOrgBean(
     val address: String,
